@@ -1,0 +1,79 @@
+.en-tete-page {
+  color: green;
+  justify-content: center;
+  text-align: center;
+  font-size: "24px";
+  font-style: normal;
+}
+
+img {
+  width: 320px;
+  height: auto;
+}
+
+.paragraphe1 {
+  justify-content: end;
+  margin-left: 50px;
+  text-align: end;
+  font-size: 18px;
+  text-size-adjust: 22px;
+}
+
+.paragraphe2 {
+  text-align: start;
+  font-size: 18px;
+}
+
+.text-en-parle {
+  color: indigo;
+  text-size-adjust: 22px;
+  justify-content: center;
+  text-align: start;
+}
+
+span {
+  color: red;
+}
+
+li {
+  justify-content: center;
+  text-transform: uppercase;
+  margin: auto;
+}
+
+.lien1 {
+  text-transform: lowercase;
+  margin-left: 30px;
+}
+
+.lien2 {
+  text-transform: lowercase;
+  margin-left: 30px;
+}
+
+table {
+  border-width: 1px;
+  border: 2px solid;
+  border-width: 1px;
+  align-content: center;
+  width: 100%;
+  height: auto;
+}
+
+table {
+  width: 100%;
+  border-width: 1px solid;
+}
+
+th {
+  justify-content: center;
+  align-content: center;
+  color: red;
+}
+
+td {
+  justify-content: center;
+  text-align: center;
+  margin-left: 150px;
+  font-weight: bold;
+}
