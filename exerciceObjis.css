@@ -77,3 +77,6 @@ td {
   margin-left: 150px;
   font-weight: bold;
 }
+tr {
+  border-width: 1px solid;
+}
