@@ -9,6 +9,7 @@
 img {
   width: 320px;
   height: auto;
+  justify-content: center;
 }
 
 .paragraphe1 {
@@ -22,6 +23,7 @@ img {
 .paragraphe2 {
   text-align: start;
   font-size: 18px;
+  font-display: 'none';
 }
 
 .text-en-parle {
@@ -63,6 +65,10 @@ table {
 table {
   width: 100%;
   border-width: 1px solid;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+ 
 }
 
 th {
@@ -79,4 +85,20 @@ td {
 }
 tr {
   border-width: 1px solid;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+    justify-content: center;
+    align-content: center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
 }
